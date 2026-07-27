@@ -61,9 +61,9 @@ function initContactForm() {
     sendPushNotification('Hafatra vaovao!', `${name} dia nandefa hafatra momba ny ${service}`);
 
     const whatsappText = encodeURIComponent(`🛒 HAFATRA VAOVAO - DEVWEBIA Vitrine\n👤 Anarana: ${name}\n📞 Telefaonina: ${phone}\n🎯 Tolotra: ${service}\n💬 Hafatra: ${message}`);
-    const waUrl = `https://wa.me/261340000000?text=${whatsappText}`;
+    const waUrl = `https://wa.me/261323911654?text=${whatsappText}`;
     
-    alert('Misaotra amin'ny hafatra! Hatao reho amin'ny WhatsApp ny fampitana izany.');
+    alert('Misaotra amin\'ny hafatra! Hatao reho amin\'ny WhatsApp ny fampitana izany.');
     window.open(waUrl, '_blank');
     form.reset();
   });
